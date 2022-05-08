@@ -1,0 +1,65 @@
+\begin{table}[!h]
+\caption{List of all crimes and their categories (in bold are the categories and crime used for analysis)}
+\label{tab:crimeexp}
+\begin{tabular}{lll}
+\textbf{Dutch}                                      & \textbf{English}                                        & \textbf{Variable}    \\
+\textbf{1.1.1 Diefstal/inbraak woning}              & \textbf{1.1.1   Theft/burglary at home}                 & \textbf{rTheft}      \\
+\textbf{1.1.2 Diefstal/inbraak   box/garage/schuur} & \textbf{1.1.2   Theft/burglary from a box/garage/barn}  & \textbf{rTheft}      \\
+\textbf{1.2.1 Diefstal uit/vanaf motorvoertuigen}   & \textbf{1.2.1   Theft from motor vehicles}              & \textbf{rTheft}      \\
+\textbf{1.2.2 Diefstal van motorvoertuigen}         & \textbf{1.2.2   Theft of motor vehicles}                & \textbf{rTheft}      \\
+\textbf{1.2.3 Diefstal van brom-,   snor-, fietsen} & \textbf{1.2.3   Theft of mopeds, motorcycles, bicycles} & \textbf{rTheft}      \\
+\textbf{1.2.4 Zakkenrollerij}                       & \textbf{1.2.4   Pickpocketing}                          & \textbf{rTheft}      \\
+\textbf{1.2.5 Diefstal af/uit/van ov.   voertuigen} & \textbf{1.2.5   Theft from other vehicles}              & \textbf{rTheft}      \\
+1.3.1 Ongevallen (weg)                              & 1.3.1   Accidents (road)                                &                      \\
+1.4.1 Zedenmisdrijf                                 & 1.4.1   Sex offence                                     &                      \\
+\textbf{1.4.2 Moord, doodslag}                      & \textbf{1.4.2   Murder, manslaughter}                   & \textbf{rHomicides}  \\
+1.4.3 Openlijk geweld (persoon)                     & 1.4.3   Public violence (person)                        &                      \\
+1.4.4 Bedreiging                                    & 1.4.4   Threats                                         &                      \\
+1.4.5 Mishandeling                                  & 1.4.5   Assault                                         &                      \\
+\textbf{1.4.6 Straatroof}                           & \textbf{1.4.6   Street robbery}                         & \textbf{rTheft}      \\
+\textbf{1.4.7 Overval}                              & \textbf{1.4.7   Robbery}                                & \textbf{rTheft}      \\
+\textbf{1.5.2 Diefstallen (water)}                  & \textbf{1.5.2   Thefts (water)}                         & \textbf{rTheft}      \\
+1.6.1 Brand/ontploffing                             & 1.6.1   Fire/explosion                                  &                      \\
+1.6.2 Overige vermogensdelicten                     & 1.6.2   Other property crimes                           &                      \\
+1.6.3 Mensenhandel                                  & 1.6.3   Human trafficking                               &                      \\
+2.1.1 Drugs/drankoverlast                           & 2.1.1   Drugs/drinks nuisance                           &                      \\
+2.2.1 Vernieling cq. zaakbeschadiging               & 2.2.1   Destruction or damage to property               &                      \\
+2.4.1 Burengerucht (relatieproblemen)               & 2.4.1   Neighbourhood rumours (relationship problems)   &                      \\
+2.4.2 Huisvredebreuk                                & 2.4.2   Housebreaking                                   &                      \\
+\textbf{2.5.1 Diefstal/inbraak bedrijven enz.}      & \textbf{2.5.1   Theft/burglary, businesses, etc.}       & \textbf{rTheft}      \\
+\textbf{2.5.2 Winkeldiefstal}                       & \textbf{2.5.2   Shoplifting}                            & \textbf{rTheft}      \\
+2.6.1 Inrichting Wet Milieubeheer                   & 2.6.1   Environmental Management Act installation       &                      \\
+2.6.10 Bestrijdingsmiddelen                         & 2.6.10   Pesticides                                     &                      \\
+2.6.11 Natuur en landschap                          & 2.6.11   Nature and landscape                           &                      \\
+2.6.12 Ruimtelijke ordening                         & 2.6.12   Spatial planning                               &                      \\
+2.6.13 Dieren                                       & 2.6.13   Animals                                        &                      \\
+2.6.14 Voedselveiligheid                            & 2.6.14   Food safety                                    &                      \\
+2.6.2 Bodem                                         & 2.6.2   Soil                                            &                      \\
+2.6.3 Water                                         & 2.6.3   Water                                           &                      \\
+2.6.4 Afval                                         & 2.6.4   Waste                                           &                      \\
+2.6.5 Bouwstoffen                                   & 2.6.5   Building materials                              &                      \\
+2.6.7 Mest                                          & 2.6.7   Manure                                          &                      \\
+2.6.8 Transport gevaarlijke stoffen                 & 2.6.8   Transport of hazardous substances               &                      \\
+2.6.9 Vuurwerk                                      & 2.6.9   Fireworks                                       &                      \\
+2.7.2   Bijzondere wetten                           & 2.7.2 Special laws                                      &                      \\
+2.7.3   Leefbaarheid (overig)                       & 2.7.3 Quality of life (other)                           &                      \\
+3.1.1 Drugshandel                                   & 3.1.1   Drug trafficking                                &                      \\
+3.1.2 Mensensmokkel                                 & 3.1.2   Smuggling of human beings                       &                      \\
+3.1.3 Wapenhandel                                   & 3.1.3   Arms trafficking                                &                      \\
+3.2.1 Kinderporno                                   & 3.2.1   Child pornography                               &                      \\
+3.2.2 Kinderprostitutie                             & 3.2.2   Child prostitution                              &                      \\
+3.3.2 Onder invloed (lucht)                         & 3.3.2   Under the influence (air)                       &                      \\
+3.3.5 Lucht (overig)                                & 3.3.5   Air (other)                                     &                      \\
+3.4.2 Onder invloed (water)                         & 3.4.2   Under the influence (water)                     &                      \\
+3.5.2 Onder invloed (weg)                           & 3.5.2   Under the influence (road)                      &                      \\
+3.5.5 Weg (overig)                                  & 3.5.5   Road (other)                                    &                      \\
+3.6.4 Aantasting openbare orde                      & 3.6.4   Public order offences                           &                      \\
+3.7.1 Discriminatie                                 & 3.7.1   Discrimination                                  &                      \\
+3.7.2 Vreemdelingenzorg                             & 3.7.2   Immigration                                     &                      \\
+3.7.3 Maatsch. integriteit (overig)                 & 3.7.3   Social integrity (other)                        &                      \\
+\textbf{3.7.4 Cybercrime}                           & \textbf{3.7.4   Cybercrime}                             & \textbf{rCybercrime} \\
+\textbf{3.9.1 Horizontale fraude}                   & \textbf{3.9.1   Horizontal fraud}                       & \textbf{rHFraud}     \\
+3.9.2 Verticale fraude                              & 3.9.2   Vertical fraud                                  &                      \\
+3.9.3 Fraude   (overig)                             & 3.9.3 Fraud (other)                                     &                     
+\end{tabular}
+\end{table}

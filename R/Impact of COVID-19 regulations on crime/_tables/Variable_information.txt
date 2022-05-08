@@ -1,0 +1,47 @@
+\begin{table}[!h] \centering
+\caption{List of variables, explanations and types}
+\label{tab:variables}
+\begin{tabular}{lll}
+\rowcolor[HTML]{FFFFFF} 
+\textbf{Variable name}               & \textbf{Explanation}                                                                                                        & \textbf{Type} \\ \hline
+\rowcolor[HTML]{FFFFFF} 
+Period                               & Year and month of recording (YYYYMM)                                                                                        & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+Province                             & Name of province in the Netherlands                                                                                         & Character     \\
+\rowcolor[HTML]{FFFFFF} 
+Population                           & Total population of the province                                                                                            & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+lnPop                                & The log of the total population of the   province                                                                           & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+rTotal                               & Crime rate of Total crime registered per   100.00 inhabitants                                                               & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+rTheft                               & Crime rate of registered theft and robbery   crimes per 100.00 inhabitants                                                  & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+rHomicide                            & Crime rate om registered homicides per   100.00 inhabitants                                                                 & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+rCybercrime                          & Crime rate of registered cybercrimes per   100.00 inhabitants                                                               & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+rHFraud                              & Crime rate of registered horizontal fraud   crimes per 100.00 inhabitants                                                   & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+C1\_calculated                       & School closing: Record closings of schools   and universities                                                               & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+C2\_calculated                       & Workplace closing: Record closing of   workplace                                                                            & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+C3\_calculated                       & Cancel public events: Record cancelling of   public events                                                                  & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+C4\_calculated                       & Restrictions on gatherings: Record limits on   gatherings                                                                   & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+C5\_calculated                       & Close public transport: Record closing of   public transport                                                                & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+C6\_calculated                       & Stay at home requirements: Record orders to   "shelter-in-place" and otherwise confine to the home                          & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+C7\_calculated                       & Restrictions on internal movement: Record   restrictions on internal movement between cities/regions                        & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+C8\_calculated                       & International travel controls: Record   restrictions on international travel                                                & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+E1\_calculated                       & Income support: Record if the government is   providing direct cash payments to people who lose their jobs or cannot   work & Numeric       \\
+\rowcolor[HTML]{FFFFFF} 
+E2\_calculated                       & Debt/contract relief: Record if the   government is freezing financial obligations for households                           & Numeric       \\
+\cellcolor[HTML]{FFFFFF}Unemployment & Unemployment   rate per province per quarter                                                                                & Numeric       \\ \hline
+\end{tabular}
+\end{table}
